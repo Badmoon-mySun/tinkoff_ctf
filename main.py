@@ -2,9 +2,9 @@ from flask import Flask, send_from_directory, redirect, request
 
 app = Flask(__name__)
 
-USER = "asd"
+USER = "anvar"
 FLAG = True
-SITE_URL = "http://localhost:5000"
+SITE_URL = "https://tctf-notizen.ctf.su"
 
 
 @app.route("/image")
